@@ -14,9 +14,6 @@
 int fact(int num1)
 {
     int num2 = 1;
-   // printf("Enter No. to find its factorial : ");
-    //scanf("%d",&num1);
-   // printf("Factorial of %d is : ",num1);
     while(num1>=1)
     {
         num2 *= num1 ;
@@ -39,7 +36,6 @@ int  comb()
 
 int main()
 {
-   // printf("%d",fact());
     printf("%d",comb());
 
 		return EXIT_SUCCESS;
