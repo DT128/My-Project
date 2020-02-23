@@ -3,7 +3,7 @@
  Author      : Dhirendra Tiwari
  Version     :
  Copyright   : Your copyright notice
- Description : to find prime numbers in C
+ Description : to find Even and Odd numbers in C
  ============================================================================
  */
 
@@ -13,7 +13,7 @@
 int main(void)
 {
 	int i,n;
-	printf(" Enter nth term to find prime no. ");
+	printf(" Enter nth term :  \n");
 	scanf("%d",&n);
 	for(i=0;i<=n;i++)
 	{
